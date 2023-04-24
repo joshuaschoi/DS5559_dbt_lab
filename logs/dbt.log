@@ -1,0 +1,59 @@
+
+
+============================== 2023-04-24 03:23:35.730526 | 837a525e-0689-4103-9a59-e4a4aab69467 ==============================
+[0m03:23:35.730526 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:23:35.731366 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/joshuachoi/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:23:35.731460 [debug] [MainThread]: Tracking: tracking
+[0m03:23:35.742673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103aa6a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a98970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a7cb50>]}
+[0m03:23:35.744013 [debug] [MainThread]: Starter project path: /Users/joshuachoi/Desktop/DS_5559/11.1_DBT(Data_Build_Tool)/DS5559_dbt_lab/env/lib/python3.9/site-packages/dbt/include/starter_project
+[0m03:24:13.691652 [info ] [MainThread]: Profile first_project written to /Users/joshuachoi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:24:13.692497 [info ] [MainThread]: 
+Your new dbt project "first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:24:13.693111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a7ca30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a98970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103aa6a90>]}
+[0m03:24:13.693683 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 03:25:56.713371 | 6f9f4e80-063d-4fa8-aab8-ddae6f1b3ac0 ==============================
+[0m03:25:56.713371 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:25:56.714048 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/joshuachoi/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m03:25:56.714133 [debug] [MainThread]: Tracking: tracking
+[0m03:25:56.720996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10556af70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10557c280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10558f5e0>]}
+[0m03:25:56.721480 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/joshuachoi/.dbt
+[0m03:25:56.721788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055284f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10556af70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10556ae50>]}
+[0m03:25:56.721904 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 03:29:48.057512 | f807e1ce-3eab-4187-ba7b-f202ca0baf61 ==============================
+[0m03:29:48.057512 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:29:48.058335 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/joshuachoi/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:29:48.058417 [debug] [MainThread]: Tracking: tracking
+[0m03:29:48.066033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073addc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073c0c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073d46d0>]}
+[0m03:29:48.067006 [debug] [MainThread]: Starter project path: /Users/joshuachoi/Desktop/DS_5559/11.1_DBT(Data_Build_Tool)/DS5559_dbt_lab/env/lib/python3.9/site-packages/dbt/include/starter_project
+[0m03:29:56.392665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073c0c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073d4370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073d4a00>]}
+[0m03:29:56.393928 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-24 03:30:04.922110 | d109afa8-d85a-4728-8106-c5280870e34e ==============================
+[0m03:30:04.922110 [info ] [MainThread]: Running with dbt=1.4.6
+[0m03:30:04.922785 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/joshuachoi/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'DS5559_LAB', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:30:04.922868 [debug] [MainThread]: Tracking: tracking
+[0m03:30:04.929595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1036fa9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103750f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103763640>]}
+[0m03:30:04.930536 [info ] [MainThread]: A project called DS5559_LAB already exists here.
+[0m03:30:04.930712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10060b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10373ed60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10373e5e0>]}
+[0m03:30:04.930819 [debug] [MainThread]: Flushing usage events
